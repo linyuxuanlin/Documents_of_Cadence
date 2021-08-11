@@ -1,0 +1,58 @@
+# From original gitignore 
+
+#############
+## Allegro
+#############
+
+# Ignore log file
+*.log
+*.log,1
+*.log,2
+*.log,3
+
+*.dml
+*.lst
+
+#ignore 记录操作allegro的事件
+*.jrl
+*.jrl,1
+
+*.tag
+
+#报告文件
+*.rpt
+
+#报告文件
+*.cfg
+*.cfg,1
+
+*.lck
+
+#报表文件
+*.txt
+*.txt,1
+*.txt,2
+
+#XY数据除外
+!place_txt.txt
+
+#DXF导入文件
+*.cnv
+
+#Gerber param file除外
+!art_param.txt
+
+#Folder
+#过滤整个文件夹
+/signoise.run/ 
+
+#############
+## OrCAD
+#############
+*.dbk
+*.opj
+*.DRC
+*.DSNlck
+
+#ignore netlist
+allegro/ 
